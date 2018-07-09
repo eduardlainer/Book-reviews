@@ -11,9 +11,10 @@ Database:
 * bookreviews
 
 Tables:
-
-* users: id(INT AUTO-INCREMENT),  username(VARCHAR),  password(VARCHAR),  email(VARCHAR) 
-* books: id(INT AUTO-INCREMENT),  isbn(VARCHAR),  title(VARCHAR),  author(VARCHAR),  year(INT) 
+```
+- users: id(INT AUTO-INCREMENT),  username(VARCHAR),  password(VARCHAR),  email(VARCHAR) 
+- books: id(INT AUTO-INCREMENT),  isbn(VARCHAR),  title(VARCHAR),  author(VARCHAR),  year(INT) 
+```
 
 ### API used
 
