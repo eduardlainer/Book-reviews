@@ -1,0 +1,95 @@
+/* General information
+
+    - #e67e22 (Navbar color)
+    - white (Body color)
+    - font-family: 'Questrial', sans-serif;  (Navbar font)
+
+*/
+
+/* Navbar style */
+
+.navbar {
+
+    background-color: #3498db !important;
+    height: 80px;
+    color: white;
+
+}
+
+
+/* Body style layout */
+
+body {
+    text-align: center;
+}
+
+/*  brand style */
+
+.brand {
+    font-family: 'Questrial', sans-serif;
+}
+
+/* Error and succes messages */
+
+#errormessage {
+    font-family: 'Questrial', sans-serif;
+    margin-top: 30px;
+}
+
+#succesmessage {
+    font-family: 'Questrial', sans-serif;
+    margin-top: 30px;
+}
+
+
+/* titles */
+
+.titles {
+    margin-top: 80px;
+}
+
+button {
+    font-family: 'Questrial', sans-serif;
+}
+
+/* LOGO */
+
+.fa-book-open {
+    color: #212529;
+}
+
+
+
+/* Search */
+
+
+.search {
+    margin-top: 50px;
+    width: 300px;
+}
+
+.searchbutton {
+    margin-top: 10px;
+}
+
+.norecord{
+    margin-top: 10px;
+}
+
+
+/* searched result */
+
+.result {
+    margin-top: 50px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.result p{
+    margin: 0;
+    padding: 0;
+}
+
+.backtosearch {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}

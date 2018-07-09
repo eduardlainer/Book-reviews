@@ -1,0 +1,33 @@
+
+/* LOGIN PAGE Style */
+
+
+.loginform {
+    margin-top: 50px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+/* Register link */
+
+.linkreg {
+    font-family: 'Questrial', sans-serif;
+    color: white;
+}
+
+.linkreg:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* Login button */
+
+.loginbutton {
+    width: 80px;
+}
+
+/* ALert */
+
+.alert {
+    margin-top: 10px;
+}

@@ -1,0 +1,27 @@
+
+/* Register page style */
+
+.registerform {
+    margin-top: 50px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+/* alert */
+
+.alert {
+    margin-top: 10px;
+}
+
+/* Login link */
+
+.linklogin {
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    width: 85px;
+}
+
+.linklogin:hover {
+    text-decoration: none;
+    color: white;
+}

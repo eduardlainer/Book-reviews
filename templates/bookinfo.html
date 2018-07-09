@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+
+    Book info
+
+{% endblock %}
+
+{% block body %}
+
+    <h3 class="animated rubberBand display-4 text-center titles">Book details</h3>
+
+    <div class="result mx-auto">
+
+        {% for res in bookdetails %}
+
+            <p><b>ISBN:</b> <i>{{ res[1] }}</i></p>
+            <p><b>Title:</b> <i>{{ res[2] }}</i></p>
+            <p><b>Author:</b> <i>{{ res[3] }}</i></p>
+            <p><b>Year:</b> <i>{{ res[4] }}</i></p>
+
+        {% endfor %}
+        &nbsp&nbsp&nbsp&nbsp
+        <p><b>Goodreads Reviews:</b></p>
+        <p><b>Average rating: </b>{{ averagerating }} of 5</p>
+        <p><b>Ratings count: </b>{{ ratingscount }}</p>
+    </div>
+
+    <a class="backtosearch btn btn-info" href="{{ url_for('index') }}">Back to search</a>
+
+{% endblock %}

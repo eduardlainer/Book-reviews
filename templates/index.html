@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+
+    Dashboard
+
+{% endblock %}
+
+{% block body %}
+    <h3 class="animated rubberBand display-4 text-center titles">Book reviews</h3>
+    <form class="form-group search mx-auto" action="{{ url_for('books') }}" method="post">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search a book eg: isbn, author, title"
+               aria-label="Search" name="searched">
+        <button class="btn btn-info searchbutton" type="submit">Search</button>
+        <a class="searchbutton btn btn-info" href="{{ url_for('logout') }}">Log out</a>
+        <div class="alert {{ alerttype }} norecord" role="alert">
+            {{ message }}
+        </div>
+
+    </form>
+
+
+
+{% endblock %}

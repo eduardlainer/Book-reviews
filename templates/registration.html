@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block head %}
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='register.css') }}">
+
+{% endblock %}
+
+{% block title %}
+
+    Registration
+
+{% endblock %}
+
+{% block body %}
+
+    <h3 class="animated rubberBand display-4 text-center titles">Please register!</h3>
+
+    <form class="registerform mx-auto" action="{{ url_for('register') }}" method="post">
+        <div class="form-group">
+            <input class="form-control" name="username" placeholder="Username" required>
+        </div>
+        <div class="form-group">
+            <input class="form-control" name="password" placeholder="Password" type="password" required>
+        </div>
+        <div class="form-group">
+            <input class="form-control" name="email" placeholder="Email" type="email" required>
+        </div>
+        <button class="btn btn-info registerbutton">Register</button>
+        <a class="linklogin btn btn-info" href="{{ url_for('login') }}">Log in</a>
+        <div class="alert {{ alerttype }}" role="alert">
+            {{ message }}
+        </div>
+    </form>
+
+{% endblock %}
