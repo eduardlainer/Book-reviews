@@ -6,8 +6,8 @@ An application to check book informations and reviews
 * import.py - python script to import books in database
 
 ## Database structure
-* Database:
+ Database:
 * bookreviews
-* Tables:
+ Tables:
 * users(id(INT AUTO-INCREMENT), username(VARCHAR), password(VARCHAR), email(VARCHAR))
 * books(id(INT AUTO-INCREMENT), isbn(VARCHAR), title(VARCHAR), author(VARCHAR), year(INT))
