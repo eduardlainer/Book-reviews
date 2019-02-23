@@ -6,11 +6,12 @@ A flask application to check for book informations and reviews
 * import.py - python script to import books in database
 
 ### Database structure
-Database:
+Schema name:
 
 * bookreviews
 
 Tables:
+
 ```
 - users: id(INT AUTO-INCREMENT),  username(VARCHAR),  password(VARCHAR),  email(VARCHAR) 
 - books: id(INT AUTO-INCREMENT),  isbn(VARCHAR),  title(VARCHAR),  author(VARCHAR),  year(INT) 
